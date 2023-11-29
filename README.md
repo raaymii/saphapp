@@ -6,10 +6,11 @@ xCall is a standardized interface designed to simplify cross-chain development b
 ## Set Up the Project
 npm install express body-parser in the root directory
 
-###Run the Server
+### Run the Server
 node server.js
 
 After that, to simulate a CI/CD action; run curl -X POST -H "Content-Type: application/json" -d '{"project": "MyProject", "action": "deploy", "blockchain": "Ethereum"}' http://localhost:3000/ci-cd
-if you're running it in bash and
+if you're running it in bash 
+
 Invoke-RestMethod -Uri http://localhost:3000/ci-cd -Method Post -Headers @{"Content-Type"="application/json"} -Body '{"project": "MyProject", "action": "deploy", "blockchain": "Ethereum"}'
 if you're using powershell
