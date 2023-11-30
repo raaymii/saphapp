@@ -14,3 +14,6 @@ if you're running it in bash
 
 Invoke-RestMethod -Uri http://localhost:3000/ci-cd -Method Post -Headers @{"Content-Type"="application/json"} -Body '{"project": "MyProject", "action": "deploy", "blockchain": "Ethereum"}'
 if you're using powershell
+
+## Article on it
+https://medium.com/@raaymii/creating-a-cross-chain-developer-tool-ci-cd-with-xcall-deae19292823?source=your_stories_page-------------------------------------
